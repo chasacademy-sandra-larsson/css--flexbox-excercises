@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: lightgray;
+    border-radius: 10px;
+    width: 90%;
+    box-sizing: border-box;
+    margin-top: 20px;   
+}
+.main-nav-list {
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    
+}
+.list-item  {
+    display: flex;
+    padding: 10px;
+}
+.list-item a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif
+}
+.list-item a:hover {
+    color: blue;
+    border-bottom: 2px solid blue;
+    
+}
